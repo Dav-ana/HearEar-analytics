@@ -50,14 +50,14 @@ loss_type AS(
 SELECT 
 *, 
 CASE WHEN severity_left IS NULL THEN NULL
-WHEN severity_left = 'Normal' THEN NULL
+WHEN severity_left = 'Normal' THEN 'Normal'
 WHEN pta_left_bc <=20 AND abg_left >=15 THEN 'Conductive'
 WHEN pta_left_bc >20 AND abg_left <15 THEN 'Sensorineural'
 WHEN pta_left_bc >20 AND abg_left >= 15 THEN 'Mixed'
 ELSE 'Inconclusive'
 END AS loss_type_left,
 CASE WHEN severity_right IS NULL THEN NULL
-WHEN severity_right = 'Normal' THEN NULL
+WHEN severity_right = 'Normal' THEN 'Normal'
 WHEN pta_right_bc <=20 AND abg_right >=15 THEN 'Conductive'
 WHEN pta_right_bc >20 AND abg_right <15 THEN 'Sensorineural'
 WHEN pta_right_bc >20 AND abg_right >= 15 THEN 'Mixed'
@@ -67,8 +67,9 @@ FROM gap_calc)
 SELECT 
 *, 
 CASE WHEN loss_type_left IS NULL AND loss_type_right IS NULL THEN NULL
-WHEN loss_type_left IS NULL AND loss_type_right IS NOT NULL THEN 'Unilateral'
-WHEN loss_type_right IS NULL AND loss_type_left IS NOT NULL THEN 'Unilateral'
+WHEN loss_type_left = 'Normal' AND loss_type_right = 'Normal' THEN 'Normal Hearing'
+WHEN loss_type_left = 'Normal' AND loss_type_right != 'Normal' THEN 'Unilateral'
+WHEN loss_type_right = 'Normal' AND loss_type_left !='Normal' THEN 'Unilateral'
 WHEN ABS(pta_left_ac - pta_right_ac) >= 20 THEN 'Asymmetrical'
 WHEN loss_type_left = loss_type_right THEN 'Bilateral'
 ELSE 'Bilateral'
