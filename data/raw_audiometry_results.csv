@@ -1,0 +1,31 @@
+result_id,appointment_id,ac_left_500hz,ac_left_1000hz,ac_left_2000hz,ac_left_4000hz,ac_right_500hz,ac_right_1000hz,ac_right_2000hz,ac_right_4000hz,bc_left_500hz,bc_left_1000hz,bc_left_2000hz,bc_left_4000hz,bc_right_500hz,bc_right_1000hz,bc_right_2000hz,bc_right_4000hz,notes
+1,1,55,60,65,75,50,55,60,70,50,55,60,70,45,50,55,65,Sensorineural - moderate bilateral
+2,2,15,10,15,20,10,15,20,25,15,10,15,20,10,15,20,25,Normal bilateral
+3,3,45,45,50,55,15,15,20,25,15,15,20,25,15,15,20,25,Conductive - moderate left / normal right
+4,4,70,75,80,90,65,70,75,85,65,70,75,85,60,65,70,80,Sensorineural - severe bilateral
+5,5,20,20,25,30,15,20,25,35,20,20,25,30,15,20,25,35,Normal bilateral
+6,6,50,50,55,60,45,50,55,65,25,25,30,30,25,25,30,35,Mixed - moderate bilateral
+7,7,60,65,70,80,55,60,65,75,55,60,65,75,50,55,60,70,Sensorineural - moderate-severe bilateral
+8,8,25,30,30,40,20,25,30,35,25,30,30,40,20,25,30,35,Normal-mild bilateral
+9,9,75,80,85,95,70,75,80,90,70,75,80,90,65,70,75,85,Sensorineural - severe bilateral
+10,10,10,15,15,20,15,10,20,25,10,15,15,20,15,10,20,25,Normal bilateral
+11,16,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,Test incomplete - could not complete
+12,17,45,50,55,65,40,45,50,60,20,20,25,25,15,20,25,30,Conductive - moderate bilateral
+13,18,NULL,50,55,65,20,NULL,30,35,NULL,20,25,30,20,NULL,25,30,Test incomplete - partial data
+14,19,20,25,30,35,25,30,35,40,20,25,30,35,25,30,35,40,Normal bilateral
+15,20,55,60,65,75,60,65,70,80,30,30,35,35,30,35,35,40,Mixed - moderate bilateral
+16,26,80,85,90,100,75,80,85,95,75,80,85,95,70,75,80,90,Sensorineural - severe-profound bilateral
+17,27,15,20,20,25,10,15,20,30,15,20,20,25,10,15,20,30,Normal bilateral
+18,28,NULL,40,45,55,35,40,NULL,50,NULL,15,20,25,15,20,NULL,25,Test incomplete - partial data
+19,29,30,35,40,50,35,40,45,55,30,35,40,50,35,40,45,55,Sensorineural - mild bilateral
+20,30,45,50,55,65,50,55,60,70,20,20,25,25,20,25,30,30,Conductive - moderate bilateral
+21,34,25,25,30,40,20,25,30,45,25,25,30,40,20,25,30,45,Normal-mild bilateral
+22,35,60,65,70,80,55,60,65,70,55,60,65,75,50,55,60,65,Sensorineural - moderate bilateral
+23,36,10,15,15,25,15,15,20,30,10,15,15,25,15,15,20,30,Normal bilateral
+24,37,85,90,95,105,80,85,90,100,80,85,90,100,75,80,85,95,Sensorineural - profound bilateral
+25,38,20,20,25,35,15,20,20,30,20,20,25,35,15,20,20,30,Normal bilateral
+26,42,55,60,65,75,50,55,60,70,25,25,30,30,25,30,30,35,Mixed - moderate bilateral
+27,43,35,40,45,55,30,35,40,50,10,15,20,20,10,15,20,25,Conductive - mild-moderate bilateral
+28,44,15,20,20,25,10,15,20,25,15,20,20,25,10,15,20,25,Normal bilateral
+29,45,55,60,65,75,50,55,60,70,50,55,60,70,45,50,55,65,Sensorineural - moderate bilateral
+30,46,40,45,50,60,35,40,45,55,15,20,20,25,15,15,20,25,Conductive - mild-moderate bilateral

@@ -1,0 +1,51 @@
+appointment_id,patient_id,location_id,appointment_date,appointment_type
+1,1,1,2024-01-08,Hearing Assessment
+2,2,2,2024-01-09,Hearing Assessment
+3,3,4,2024-01-10,Hearing Assessment
+4,4,3,2024-01-11,Hearing Assessment
+5,5,5,2024-01-14,Hearing Assessment
+6,6,6,2024-01-15,Hearing Assessment
+7,7,7,2024-01-16,Hearing Assessment
+8,8,8,2024-01-17,Hearing Assessment
+9,9,1,2024-01-18,Hearing Assessment
+10,10,2,2024-01-21,Hearing Assessment
+11,1,1,2024-01-29,Hearing Aid Fitting
+12,4,3,2024-01-30,Hearing Aid Fitting
+13,7,7,2024-01-31,Hearing Aid Fitting
+14,9,1,2024-02-01,Hearing Aid Fitting
+15,10,2,2024-02-05,Hearing Aid Fitting
+16,11,4,2024-02-06,Hearing Assessment
+17,12,3,2024-02-07,Hearing Assessment
+18,13,5,2024-02-08,Hearing Assessment
+19,14,6,2024-02-09,Hearing Assessment
+20,15,7,2024-02-12,Hearing Assessment
+21,1,1,2024-02-26,Follow-up
+22,4,3,2024-02-27,Follow-up
+23,7,7,2024-02-28,Follow-up
+24,9,1,2024-02-29,Follow-up
+25,10,2,2024-03-04,Follow-up
+26,16,1,2024-03-05,Hearing Assessment
+27,17,8,2024-03-06,Hearing Assessment
+28,18,1,2024-03-07,Hearing Assessment
+29,19,4,2024-03-08,Hearing Assessment
+30,20,3,2024-03-11,Hearing Assessment
+31,11,4,2024-03-19,Hearing Aid Fitting
+32,13,5,2024-03-20,Hearing Aid Fitting
+33,15,7,2024-03-21,Hearing Aid Fitting
+34,21,2,2024-03-22,Hearing Assessment
+35,22,5,2024-03-25,Hearing Assessment
+36,23,6,2024-03-26,Hearing Assessment
+37,24,7,2024-03-27,Hearing Assessment
+38,25,8,2024-03-28,Hearing Assessment
+39,11,4,2024-04-08,Follow-up
+40,13,5,2024-04-09,Follow-up
+41,15,7,2024-04-10,Follow-up
+42,26,1,2024-04-11,Hearing Assessment
+43,27,4,2024-04-12,Hearing Assessment
+44,28,3,2024-04-15,Hearing Assessment
+45,29,2,2024-04-16,Hearing Assessment
+46,30,6,2024-04-17,Hearing Assessment
+47,16,1,2024-05-07,Hearing Aid Fitting
+48,18,1,2024-05-08,Follow-up
+49,22,5,2024-05-09,Hearing Aid Fitting
+50,24,7,2024-05-10,Hearing Aid Fitting
